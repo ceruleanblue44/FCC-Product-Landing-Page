@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+	<html lang="en-US">
+	<head>
+		<title>Product Landing Page</title>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="cerulean_blue"/>
+		<meta name="keywords" content="ukulele"/>
+		<meta name="viewport" content="width=device width, initial-scale=1.0"/>
+		<link href="style.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="/Users/Admin/Desktop/FreeCodeCamp/RWD projects/Project 3 Product Landing Page/my-icons-collection/font/flaticon.css"/>
+	</head>
+	<body>
+		<div id="page-wrapper">
+			<header id="header">
+				<div class="logo">
+					<img id="header-image" src="logo-acacia-3.jpg" alt="ukulele logo"/>
+                    <!-- width=320 height=120 -->
+				</div>
+				<nav id="nav-bar">
+					<ul class="nav-list">
+						<li><a class="nav-link" href="#about">About</a></li>
+						<li><a class="nav-link" href="#sounds-like-this">What it's like</a></li>
+						<li><a class="nav-link" href="#pricing">Pricing</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+		    <div class="container">	
+			    <section id="uke-newsletter">
+					<h2>Subscribe to our weekly ukulele news and tutorials</h2>
+					<form id="form" action="https://www.freecodecamp.com/email-submit">
+						<input
+							id="email"
+							name="email"
+							type="email"
+							placeholder="Enter your e-mail here"
+							required
+						/>
+						<input class="btn"
+							id="submit"
+							type="submit"
+							value="Subscribe"
+						/>
+					</form>		
+				</section>
+				<section class="description">
+					<span id="about">&nbsp;</span>
+					<div class="pic">
+						<img class="icon" src="017-map.svg"/>
+					</div>
+					<div class="desc">
+						<h2>Construction</h2>
+						<p>We make our ukuleles of acacia koa. Acacia koa is a species of flowering tree in the pea family, Fabaceae.
+						It is endemic to the Hawaiian Islands, where it is the second most common tree. The highest populations are on Hawaiʻi, Maui and Oʻahu.
+						It's name in the Hawaiian language, koa, means brave, bold, fearless, or warrior. Koa is a tonewood, it
+						possesses tonal properties that make it ideal for use in acoustic stringed instruments. </p>
+					</div>
+					<div class="pic">
+						<img class="icon" src="013-mugunghwa.svg"/>
+					</div>
+					<div class="desc">
+						<h2>Traditional Sound of Hawaii</h2>
+						<p>Ukuleles are fun to play, pretty easy to learn, and people love the bright, cheerful music they make.</p>
+					</div>
+					<div class="pic">
+						<img class="icon" src="027-boat.svg"/>
+					</div>
+					<div class="desc">
+						<h2>Shipping</h2>
+						<p>Fast shipping. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</section>
+				
+				<section class="video">
+					<span id="sounds-like-this">&nbsp;</span>
+					<!--<video width="560" height="315" controls>
+						<source src="21pilotsuke.mp4" type="video/mp4">
+					</video> -->
+				
+				<!-- Write the code with <iframe> for the Codepen version -->
+				<iframe src="https://www.youtube-nocookie.com/embed/6ThQkrXHdh4" frameborder="0" rel="0" modestbranding="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+				
+			</div>	
+				
+				
+				<section id="pricing" class="type-price">
+					<div class="type" id="soprano">
+						<div class="box-top">Soprano ukulele</div>
+						<h2>$150</h2>
+						<ol>
+							<li>Length: 21 in (53 cm)</li>
+							<li>Frets: 12</li>
+							<li>Tuning: G4 C4 E4 A4 </li>
+						</ol>
+						<button class="btn">Select</button>
+					</div>
+					<div class="type" id="concert">
+						<div class="box-top">Concert ukulele</div>
+						<h2>$200</h2>
+						<ol>
+							<li>Length: 23 in (58 cm)</li>
+							<li>Frets: 15</li>
+							<li>Tuning: G4 C4 E4 A4</li>
+						</ol>
+						
+						<button class="btn">Select</button>
+					</div>
+					<div class="type" id="tenor">
+						<div class="box-top">Tenor ukulele</div>
+						<h2>$250</h2>
+						<ol>
+							<li>Length: 26 in (66 cm)</li>
+							<li>Frets: 17</li>
+							<li>Tuning: G4 C4 E4 A4 ("High G"), <br> G3 C4 E4 A4 ("Low G") </li>
+						</ol>
+						<button class="btn">Select</button>
+					</div>
+					<div class="type" id="baritone">
+						 <div class="box-top">Baritone ukulele</div>
+						 <h2>$300</h2>
+						 <ol>
+							<li>Length: 29 in (74 cm)</li>
+							<li>Frets: 18</li>
+							<li>Tuning: D3 G3 B3 E4</li>
+						 </ol>
+						 <button class="btn">Select</button>
+					</div>
+				</section>
+			
+		</div>
+		<footer>
+			<div>
+				<ul class="ft-list">
+					<li><a class="ft-link" href="#">Privacy</a></li>
+					<li><a class="ft-link" href="#">Terms</a></li>
+					<li><a class="ft-link" href="#">Contact</a></li>
+				</ul>
+				<span>Copywrong 2019, Acacia ukulele</span>
+			</div>
+			
+		    <div class="fl">Icons made by <a href="https://www.flaticon.com/authors/smalllikeart"
+			title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.com/"
+			title="Flaticon">www.flaticon.com</a>
+			</div>
+		</footer>
+		
+	
+		
+	</body>
+	</html>
