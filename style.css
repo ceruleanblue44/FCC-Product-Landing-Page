@@ -35,7 +35,7 @@ header {
 
 .logo {
 	width: 50vw;
-	height: 75px; /* 10vh initially*/
+	height: 75px; 
 }
 
 @media (max-width: 599px) {
@@ -44,27 +44,15 @@ header {
 	}
 }
 
-/*	Set the image container size to the percentage of viewport and
-then make the image take all the space inside - good for responsiveness. */
-
 .logo > img {
 	max-width: 100%;
 	max-height: 100%;
 }
-/* 
-@media (max-width: 400px) {
-	.logo > img {
-		margin-top: 8px;
-	}
-} */
 
 .nav-list {
 	list-style: none;
 	width: 50vw;
 }
-
-/* .nav-list is <ul> */
-/* Setting the width of the .nav-list fixed the problem below - no spaces between the nav-links (<li>s) */
 
 .nav-list {
 	display: flex;
@@ -80,8 +68,6 @@ then make the image take all the space inside - good for responsiveness. */
 	}
 }
 
-/* Wraps nicely but no spaces between when the viewport is wide, no idea why! - Solved! */
-
 .nav-link {
 	text-decoration: none;
 	font-size: 1.3rem;
@@ -92,8 +78,6 @@ then make the image take all the space inside - good for responsiveness. */
 		font-size: 1rem;
 	}
 }
-/* Anchor links jump to under the header, it needs fixing, there`s an article on that on
-my reading list. */
 
 a:link {
 	color: var(--color-text);
@@ -126,9 +110,6 @@ a:hover {
 	text-align: center;
 	padding-bottom: 25px;
 }
-/* Increase the email field width and height and then the button will wrap? */
-/* Is input button a block or inline element? Try making it block - worked! <form> is block,
- <input> is inline. */
 
 @media (max-width: 599px) {
 	#uke-newsletter > h2 {
@@ -140,11 +121,9 @@ a:hover {
 	width: 30vw;
 	height: 25px;
 	font-family: inherit;
-	/*	Padding adds space inside the field, margin adds space outside. */
 	margin-bottom: 10px;
 	padding-left: 3px;
 	border-radius: 1px;
-	/*	Figure out field size and button alignment! - Done! */
 	border: 0;
 }
 
@@ -156,7 +135,6 @@ a:hover {
 
 #uke-newsletter input[type='submit'] {
 	margin: auto;
-	/*	Margin: auto centers the button within its parent */
 	width: 60%;
 	height: 25px;
 }
